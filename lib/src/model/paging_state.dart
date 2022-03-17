@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:infinite_scroll_pagination/src/model/paging_status.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/model/paging_status.dart';
 
 /// The current item's list, error, and next page key state for a paginated
 /// widget.

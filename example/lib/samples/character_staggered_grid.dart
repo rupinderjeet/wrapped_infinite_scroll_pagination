@@ -5,7 +5,7 @@ import 'package:breaking_bapp/samples/common/character_listing_bloc.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
+import 'package:wrapped_infinite_scroll_pagination/infinite_scroll_pagination.dart';
 
 class CharacterStaggeredGrid extends StatefulWidget {
   @override

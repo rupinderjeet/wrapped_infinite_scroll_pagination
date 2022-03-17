@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
-import 'package:infinite_scroll_pagination/src/core/paged_child_builder_delegate.dart';
-import 'package:infinite_scroll_pagination/src/core/paging_controller.dart';
-import 'package:infinite_scroll_pagination/src/utils/appended_sliver_child_builder_delegate.dart';
-import 'package:infinite_scroll_pagination/src/widgets/helpers/paged_layout_builder.dart';
 import 'package:sliver_tools/sliver_tools.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/core/paged_child_builder_delegate.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/core/paging_controller.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/utils/appended_sliver_child_builder_delegate.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/widgets/helpers/paged_layout_builder.dart';
 
 typedef SliverGridBuilder = SliverWithKeepAliveWidget Function(
   int childCount,
