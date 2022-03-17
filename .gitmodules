@@ -1,0 +1,3 @@
+[submodule "packages/wrapped_flutter_staggered_grid_view"]
+	path = packages/wrapped_flutter_staggered_grid_view
+	url = https://github.com/letsar/flutter_staggered_grid_view.git
