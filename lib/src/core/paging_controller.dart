@@ -225,3 +225,17 @@ class PagingController<PageKeyType, ItemType>
     super.dispose();
   }
 }
+
+extension PagingControllerExtension on PagingController {
+  void updateItems<T>(T Function(int index, T item) map) {
+    final items = itemList;
+    if (items == null || items.isEmpty) {
+      return;
+    }
+
+    itemList = List<T>.generate(
+      items.length,
+      (index) => map(index, items[index]),
+    );
+  }
+}
