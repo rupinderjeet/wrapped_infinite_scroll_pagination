@@ -227,6 +227,24 @@ class PagingController<PageKeyType, ItemType>
 }
 
 extension PagingControllerExtension on PagingController {
+  //=
+
+  bool removeItemWhere<T>(bool Function(T item) where) {
+    final items = itemList;
+    if (items == null || items.isEmpty) {
+      return false;
+    }
+
+    items as List<T>;
+    final index = items.indexWhere(where);
+    if (index == -1) {
+      return false;
+    }
+
+    itemList = items.toList()..removeAt(index);
+    return true;
+  }
+
   void updateItems<T>(T Function(int index, T item) map) {
     final items = itemList;
     if (items == null || items.isEmpty) {
