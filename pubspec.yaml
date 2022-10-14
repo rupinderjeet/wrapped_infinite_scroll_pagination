@@ -14,7 +14,9 @@ dependencies:
     sdk: flutter
   sliver_tools: ^0.2.5
   wrapped_flutter_staggered_grid_view:
-    path: packages/wrapped_flutter_staggered_grid_view
+    git:
+      url: https://github.com/rupinderjeet/wrapped_infinite_scroll_pagination
+      path: packages/wrapped_flutter_staggered_grid_view
 
 dev_dependencies:
   flutter_test:

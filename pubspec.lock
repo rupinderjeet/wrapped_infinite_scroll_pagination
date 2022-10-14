@@ -433,8 +433,10 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/wrapped_flutter_staggered_grid_view"
-      relative: true
-    source: path
+      ref: HEAD
+      resolved-ref: ac13e5f7905afc3bfccb7deae0acf733562dbafb
+      url: "https://github.com/rupinderjeet/wrapped_infinite_scroll_pagination"
+    source: git
     version: "0.4.1"
   yaml:
     dependency: transitive
