@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:infinite_scroll_pagination/src/utils/appended_sliver_child_builder_delegate.dart';
+import 'package:wrapped_infinite_scroll_pagination/infinite_scroll_pagination.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/utils/appended_sliver_child_builder_delegate.dart';
 
 /// Paged [PageView] with progress and error indicators displayed as the last
 /// item.

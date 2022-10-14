@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:infinite_scroll_pagination/src/model/paging_state.dart';
-import 'package:infinite_scroll_pagination/src/model/paging_status.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/model/paging_state.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/model/paging_status.dart';
 
 typedef PageRequestListener<PageKeyType> = void Function(
   PageKeyType pageKey,

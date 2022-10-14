@@ -1,9 +1,9 @@
-export 'package:flutter_staggered_grid_view/src/rendering/sliver_staggered_grid.dart'
+export 'package:wrapped_flutter_staggered_grid_view/src/rendering/sliver_staggered_grid.dart'
     show
         SliverStaggeredGridDelegate,
         SliverStaggeredGridDelegateWithFixedCrossAxisCount,
         SliverStaggeredGridDelegateWithMaxCrossAxisExtent;
-export 'package:flutter_staggered_grid_view/src/widgets/staggered_tile.dart';
+export 'package:wrapped_flutter_staggered_grid_view/src/widgets/staggered_tile.dart';
 
 export 'src/core/paged_child_builder_delegate.dart';
 export 'src/core/paging_controller.dart';

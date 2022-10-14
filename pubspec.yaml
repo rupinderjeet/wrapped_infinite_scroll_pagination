@@ -1,7 +1,9 @@
-name: infinite_scroll_pagination
+name: wrapped_infinite_scroll_pagination
 description: Lazily load and display pages of items as the user scrolls down your screen.
 version: 4.0.0
 homepage: https://github.com/EdsonBueno/infinite_scroll_pagination
+
+publish_to: 'none'
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
@@ -10,8 +12,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_staggered_grid_view: ^0.4.1
   sliver_tools: ^0.2.5
+  wrapped_flutter_staggered_grid_view:
+    path: packages/wrapped_flutter_staggered_grid_view
 
 dev_dependencies:
   flutter_test:

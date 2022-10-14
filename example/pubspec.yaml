@@ -11,9 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.3
-  infinite_scroll_pagination:
-    path: ../
   rxdart: ^0.27.1
+  wrapped_infinite_scroll_pagination:
+    path: ../
 
 dev_dependencies:
   flutter_test:

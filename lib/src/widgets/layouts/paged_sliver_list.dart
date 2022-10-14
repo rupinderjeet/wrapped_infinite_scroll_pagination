@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:infinite_scroll_pagination/src/core/paged_child_builder_delegate.dart';
-import 'package:infinite_scroll_pagination/src/core/paging_controller.dart';
-import 'package:infinite_scroll_pagination/src/utils/appended_sliver_child_builder_delegate.dart';
-import 'package:infinite_scroll_pagination/src/widgets/helpers/paged_layout_builder.dart';
-import 'package:infinite_scroll_pagination/src/widgets/layouts/paged_list_view.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/core/paged_child_builder_delegate.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/core/paging_controller.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/utils/appended_sliver_child_builder_delegate.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/widgets/helpers/paged_layout_builder.dart';
+import 'package:wrapped_infinite_scroll_pagination/src/widgets/layouts/paged_list_view.dart';
 
 /// A [SliverList] with pagination capabilities.
 ///

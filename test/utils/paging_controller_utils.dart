@@ -1,4 +1,4 @@
-import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
+import 'package:wrapped_infinite_scroll_pagination/infinite_scroll_pagination.dart';
 
 const firstPageItemList = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 

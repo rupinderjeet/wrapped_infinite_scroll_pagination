@@ -111,13 +111,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.3.0"
-  flutter_staggered_grid_view:
-    dependency: transitive
-    description:
-      name: flutter_staggered_grid_view
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.4.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -137,13 +130,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.1"
-  infinite_scroll_pagination:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "4.0.0"
   matcher:
     dependency: transitive
     description:
@@ -366,6 +352,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.6.1"
+  wrapped_flutter_staggered_grid_view:
+    dependency: transitive
+    description:
+      path: "../packages/wrapped_flutter_staggered_grid_view"
+      relative: true
+    source: path
+    version: "0.4.1"
+  wrapped_infinite_scroll_pagination:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "4.0.0"
   xdg_directories:
     dependency: transitive
     description:
